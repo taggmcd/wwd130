@@ -11,7 +11,7 @@ nav a {
 
 nav a:hover {
     background-color: #161925;
-    color: #CBF7ED;
+    color: white;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -55,11 +55,11 @@ header {
 }
 
 .msg h2 {
-    color: #161925;
+    color: white;
 }
 
 .msg p {
-    color: #161925;
+    color: white;
 }
 
 footer {
