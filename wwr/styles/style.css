@@ -64,7 +64,6 @@ header {
 
 footer {
     background-color: #8EA8C3;
-    color: #161925;
 }
 
 footer a {
@@ -72,10 +71,12 @@ footer a {
     text-decoration: none;
 }
 footer a:hover {
+    color: #161925;
     text-decoration: underline;
 }
 
 footer p {
+    color: #161925;
     font-size: 1.2em;
 }
 
