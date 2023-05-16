@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Oswald:ital,wght@0,400;0,700;1,400&display=swap');
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -36,7 +38,7 @@ main section {
 }
 
 .card-img {
-    border: 10px solid #d9c2a3;
+    border: 10px solid #CBF7ED;
 }
 
 main section img {
@@ -49,6 +51,7 @@ main section img {
 }
 
 body {
+    font-family: Poppins, Arial, sans-serif;
     background-color: #FCFBFB;
     font-size: 22px;
     margin: 0;
@@ -77,11 +80,13 @@ header {
 .msg {
     background-color: #8EA8C3;
     line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
+    font-family: 'Oswald', 'Poppins', sans-serif;
     color: white;
-    padding: 35px;
+    padding-bottom: 15px;
 }
 
 .msg p {
@@ -93,12 +98,12 @@ header {
 footer {
     background-color: #8EA8C3;
     padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
     color: #161925;
     text-decoration: none;
-    margin-top: 200px;
 }
 
 footer a:hover {
@@ -117,7 +122,7 @@ footer .social img {
 
 .home-title {
     color: #161925;
-    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-family: 'Oswald', 'Poppins', sans-serif;
     font-size: 2em;
     margin-top: 10px;
 }
