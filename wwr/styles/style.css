@@ -160,6 +160,37 @@ header {
   padding: 15px;
 }
 
+.river {
+  line-height: 1.5em;
+  padding: 35px;
+}
+
+.river h2 {
+  font-family: "Oswald", "Poppins", sans-serif;
+  padding-bottom: 15px;
+}
+
+.river p {
+  font-size: 0.8em;
+  padding: 15px;
+}
+
+.river-description {
+  background-color: #8ea8c3;
+  color: white;
+}
+
+.margin {
+  margin: 20px;
+}
+
+.river-img {
+  width: 600px;
+  border: 10px solid #d9c2a3;
+  transition: transform 0.5s;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+
 footer {
   background-color: #8ea8c3;
   padding: 25px 50px;
