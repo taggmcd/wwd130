@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Work+Sans&display=swapp");
+
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  text-align: center;
+  color: #161925;
+  text-decoration: none;
+  padding: 35px;
+}
+
+nav a:hover {
+  background-color: #161925;
+  color: white;
+}
+
+#hero {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  /* margin-top: -100px; */
+}
+
+#hero-box {
+  grid-column: 1/4;
+  grid-row: 1/3;
+  z-index: -1;
+}
+
+#hero-msg {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-top: 120px;
+}
+
+#hero-msg h1,
+#hero-msg h4 {
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 10px #000;
+}
+
+#hero-img {
+  width: 100%;
+}
+
+.button-box {
+  text-align: center;
+}
+
+.learn-button {
+  background-color: #daf0ee;
+  color: #161925;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+.learn-button:hover {
+  background-color: #161925;
+  color: #daf0ee;
+}
+
+main section img {
+  box-sizing: border-box;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+body {
+  font-family: Poppins, Arial, sans-serif;
+  background-color: #fcfbfb;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #9db5b2;
+  display: grid;
+  grid-template-columns: 150px auto;
+}
+
+.dog-background {
+  height: 725px;
+  background-color: #daf0ee;
+  grid-column: 1/11;
+  grid-row: 4/9;
+}
+
+.home-dog {
+  grid-column: 2/7;
+  grid-row: 5/8;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+
+.dog-msg {
+  background-color: #9db5b2;
+  line-height: 1.5em;
+  padding: 35px;
+  grid-column: 6/10;
+  grid-row: 6/7;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+
+.dog-msg h2 {
+  font-family: "Work Sans", "Poppins", sans-serif;
+  color: white;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.dog-msg p {
+  color: white;
+  font-size: 0.8em;
+  padding: 15px;
+}
+
+.lawn-background {
+  height: 725px;
+  background-color: #daf0ee;
+  grid-column: 1/11;
+  grid-row: 11/16;
+}
+
+.home-mow {
+  grid-column: 5/10;
+  grid-row: 12/15;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+
+.lawn-msg {
+  background-color: #9db5b2;
+  line-height: 1.5em;
+  padding: 35px;
+  grid-column: 2/6;
+  grid-row: 13/14;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+
+.lawn-msg h2 {
+  font-family: "Work Sans", "Poppins", sans-serif;
+  color: white;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.lawn-msg p {
+  color: white;
+  font-size: 0.8em;
+  padding: 15px;
+}
+
+.margin {
+  margin: 20px;
+}
+
+footer {
+  background-color: #9db5b2;
+  padding: 25px 50px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer a {
+  color: #161925;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #161925;
+  text-decoration: underline;
+}
+
+footer p {
+  color: #161925;
+  font-size: 1.2em;
+}
+
+footer .social img {
+  padding-top: 15px;
+}
+
+.home-title {
+  color: #161925;
+  font-family: "Work Sans", "Poppins", sans-serif;
+  font-size: 2em;
+  margin-top: 10px;
+}
+
+h4 {
+  color: #161925;
+}
+
+.icon {
+  padding-top: 10px;
+  width: 80px;
+}
+
+.logo {
+  width: 100px;
+}
+
+#logo_link {
+  padding-top: 5px;
+  justify-self: center;
+  align-self: center;
+}
+
+h2 {
+  margin: 0;
+}
+
+#feedback {
+  background-color: antiquewhite;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0.5em;
+  display: none;
+}
+
+.moveDown {
+  margin-top: 3em;
+}
+
+form {
+  margin: 0 auto;
+  width: 500px;
+  padding: 1em;
+  margin-top: 30px;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  text-align: center;
+}
+
+label {
+  display: inline-block;
+  width: 130px;
+  text-align: right;
+}
+
+input,
+textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+.button {
+  padding-left: 90px;
+}
+
+button {
+  margin-left: 0.5em;
+}
+
+@media screen and (max-width: 900px) {
+  #hero,
+  .home-grid {
+    display: block;
+    height: auto;
+  }
+  nav,
+  footer {
+    flex-direction: column;
+  }
+  nav a {
+    display: block;
+    padding: 15px;
+  }
+  #hero {
+    margin-top: 0;
+  }
+  #hero-msg {
+    margin-top: 0;
+  }
+  #hero-msg h4 {
+    display: none;
+  }
+  .home-title {
+    font-size: 25px;
+    color: #6f7364;
+  }
+  .rivers-card,
+  .camping-card,
+  .rapids-card {
+    margin: 50px auto;
+    width: 60%;
+  }
+  #background {
+    display: none;
+  }
+  .mountains,
+  .msg {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
+  footer {
+    margin-top: 25px;
+  }
+}
