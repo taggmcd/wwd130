@@ -225,60 +225,74 @@ h2 {
   margin: 0;
 }
 
-#feedback {
-  background-color: antiquewhite;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  padding: 0.5em;
-  display: none;
+.paragraph {
+  grid-column: 1/11;
 }
 
-.moveDown {
-  margin-top: 3em;
-}
-
-form {
-  margin: 0 auto;
-  width: 500px;
-  padding: 1em;
-  margin-top: 30px;
-  border: 1px solid #ccc;
-  border-radius: 1em;
+.heading {
   text-align: center;
+  color: #161925;
+  font-family: "Work Sans", "Poppins", sans-serif;
+  margin-top: 10px;
 }
 
-label {
-  display: inline-block;
-  width: 130px;
-  text-align: right;
+.info-background {
+  height: 725px;
+  background-color: #9db5b2;
+  grid-column: 1/11;
+  grid-row: 6/9;
 }
 
-input,
-textarea {
-  font: 1em sans-serif;
-  width: 300px;
-  box-sizing: border-box;
-  border: 1px solid #999;
+.info-img {
+  padding: 35px;
+  grid-column: 1/4;
+  grid-row: 7/8;
 }
 
-input:focus,
-textarea:focus {
-  border-color: #000;
+.info-msg {
+  line-height: 1.5em;
+  padding: 35px;
+  grid-column: 4/11;
+  grid-row: 7/8;
 }
 
-textarea {
-  vertical-align: top;
-  height: 5em;
+.info-msg h2 {
+  font-family: "Work Sans", "Poppins", sans-serif;
+  color: white;
+  text-align: center;
+  padding-bottom: 15px;
 }
 
-.button {
-  padding-left: 90px;
+.info-msg p {
+  color: white;
+  font-size: 0.8em;
+  padding: 15px;
 }
 
-button {
-  margin-left: 0.5em;
+.info-img-horz {
+  padding: 35px;
+  grid-column: 1/6;
+  grid-row: 7/8;
+}
+
+.info-msg-horz {
+  line-height: 1.5em;
+  padding: 35px;
+  grid-column: 7/11;
+  grid-row: 7/8;
+}
+
+.info-msg-horz h2 {
+  font-family: "Work Sans", "Poppins", sans-serif;
+  color: white;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.info-msg-horz p {
+  color: white;
+  font-size: 0.8em;
+  padding: 15px;
 }
 
 @media screen and (max-width: 900px) {
@@ -308,16 +322,9 @@ button {
     font-size: 25px;
     color: #6f7364;
   }
-  .rivers-card,
-  .camping-card,
-  .rapids-card {
-    margin: 50px auto;
-    width: 60%;
-  }
   #background {
     display: none;
   }
-  .mountains,
   .msg {
     width: 80%;
     display: block;
