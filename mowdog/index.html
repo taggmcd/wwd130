@@ -22,7 +22,11 @@
           <a href="dog-care.html">Dog Care</a>
           <a href="lawn-care.html">Lawn Care</a>
         </nav>
+        <div class="progress-container">
+          <div class="progress-bar" id="myBar"></div>
+        </div>
       </header>
+
       <div id="hero">
         <div id="hero-box">
           <img
@@ -93,5 +97,20 @@
         </div>
       </footer>
     </div>
+    <script>
+      window.onscroll = function () {
+        myFunction();
+      };
+
+      function myFunction() {
+        var winScroll =
+          document.body.scrollTop || document.documentElement.scrollTop;
+        var height =
+          document.documentElement.scrollHeight -
+          document.documentElement.clientHeight;
+        var scrolled = (winScroll / height) * 100;
+        document.getElementById("myBar").style.width = scrolled + "%";
+      }
+    </script>
   </body>
 </html>
