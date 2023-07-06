@@ -274,6 +274,31 @@ h2 {
   padding: 15px;
 }
 
+.info-img-hor {
+  padding: 35px;
+  grid-column: 1/5;
+  grid-row: 7/8;
+}
+
+.info-msg-hor {
+  line-height: 1.5em;
+  padding: 35px;
+  grid-column: 6/11;
+  grid-row: 7/8;
+}
+
+.info-msg-hor h2 {
+  font-family: "Work Sans", "Poppins", sans-serif;
+  color: white;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.info-msg-hor p {
+  color: white;
+  padding: 15px;
+}
+
 /* The progress container */
 .progress-container {
   grid-column: 1/3;
