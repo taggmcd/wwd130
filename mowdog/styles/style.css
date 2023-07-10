@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Work+Sans&display=swapp");
 
+* {
+  box-sizing: border-box;
+}
+
 #content {
   max-width: 1600px;
   margin: 0 auto;
@@ -250,6 +254,7 @@ h2 {
 }
 
 .info-img {
+  width: 100%;
   padding: 35px;
   grid-column: 1/4;
   grid-row: 7/8;
@@ -275,8 +280,9 @@ h2 {
 }
 
 .info-img-hor {
+  width: 100%;
   padding: 35px;
-  grid-column: 1/5;
+  grid-column: 1/6;
   grid-row: 7/8;
 }
 
